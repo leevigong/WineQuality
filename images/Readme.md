@@ -1,7 +1,7 @@
 # visualization
-quality 분포도
+##quality 분포도
 ![quality counting](https://user-images.githubusercontent.com/107829121/201385305-202b5765-fc96-447e-a227-b935bc4dbbe6.jpg)
-상관계수 heatmap
+##상관계수 heatmap
 ![heatmap](https://user-images.githubusercontent.com/107829121/201385604-d0ce40b6-703a-4852-b95e-f16f199cca3b.jpg)
 # Wine Quality Result
 - Wine Quality Basic
