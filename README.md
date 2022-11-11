@@ -47,5 +47,5 @@ WineQT.csv가 1143개 데이터, WineQT_add가 2742개 데이터로 이루어져
 
 2 와 6.5 사이의 quality값은 'bad'라는 집단으로, 6.5 와 8 사이의 quality값은 'good'이라는 집단으로 재라벨링하여 학습을 진행하여 선형모델의 장점을 활용하기로 하였다.
 
-이진분류하였을때 정확도는 96%로 상승함을 보였고, SVC과 LogicalRegression 모델의 성능 또한 기존 방안인 데이터양을 늘리는 방법과 가중치 부여 후 정규화 방법에 비해 확연히 좋은 결과를 보여주었다. 데이터양을 늘려주었을때는 SVC은 70% 정확도를 LogicalRegression은 52% 정확도를 보였고, 가중치를 부여 후 정규화 하였을 때는 SVC은 71%, LogicalRegression은 58%의 정확도를 보였다. 이진분류하였을 때는 각각 89%, 83%의 정확도를 보여주었다. 이를 통해 SVC과 LogicalRegression은 이진분류에 탁월한 성능을 보여줌을 알았고, 이를 통해 이진분류로 재라벨링을 하여 SVC과 LogicalRegression을 활용할 수 있음을 알았다. 
+이진분류하였을때 정확도는 96%로 상승함을 보였고, SVC과 LogisticRegression 모델의 성능 또한 기존 방안인 데이터양을 늘리는 방법과 가중치 부여 후 정규화 방법에 비해 확연히 좋은 결과를 보여주었다. 데이터양을 늘려주었을때는 SVC은 70% 정확도를 LogisticRegression은 52% 정확도를 보였고, 가중치를 부여 후 정규화 하였을 때는 SVC은 71%, LogisticRegression은 58%의 정확도를 보였다. 이진분류하였을 때는 각각 89%, 83%의 정확도를 보여주었다. 이를 통해 SVC과 LogisticRegression은 이진분류에 탁월한 성능을 보여줌을 알았고, 이를 통해 이진분류로 재라벨링을 하여 SVC과 LogisticRegression을 활용할 수 있음을 알았다. 
 
