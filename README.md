@@ -43,7 +43,7 @@ WineQT.csv가 1143개 데이터, WineQT_add가 2742개 데이터로 이루어져
 
 ### 3) 이진분류로 재라벨링 -> Wine Quality 3) Binary_Classification
 
-현재 datase의 정답지에 해당하는 quality는 2~8의 범위의 정수값들을 가지고 있다. 이진분류를 통한 재라벨링을 통해 학습을 하면 SVC, LogisticRegression과 같은 선형모델들을 효과적으로 활용해보기로 하였다.
+현재 dataset의 정답지에 해당하는 quality는 2~8의 범위의 정수값들을 가지고 있다. 이진분류를 통한 재라벨링을 통해 학습을 하면 SVC, LogisticRegression과 같은 선형모델들을 효과적으로 활용해보기로 하였다.
 
 이진분류의 기준을 정하기위하여 데이터의 분포도를 quality를 기준으로 살펴보았다. 평균은 5.6 이지만, quality의 50% 와 75%에 해당하는 값 모두 6.0인 것을 통해 이진분류의 기준을 6.5로 정하였다.
 
