@@ -13,7 +13,7 @@ WineQT.csv가 1143개 데이터, WineQT_add가 2742개 데이터로 이루어져
 
 학습에 사용한 모델은 RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression을 사용하였다.  
 
-학습을 진행한 후 성능을 비교하였을때 세 가지 방안 모두 RandomForestClassifier가 가장 좋은 성능을 나타내었다. 이때문에 추가적으로 기존 모델에서 사용하던 기본 RandomForestClassifier의 성능을 더 높이기 위해 하이퍼파라미터를 최적화 하는 작업을 하였다. min_samples_leaf, min_samples_leaf는 하강곡선을 그리고 있기 때문에, default값을 사용하기로 하였다. max_depth는 상승곡선을 그리지만, 22부터는 수렴하는 정확도 성능을 보여주기때문에 max_depth = 22 로 설정하기로 하였다. n_estimators는 900부터 미세하게 진동을 하지만, 수렴하는 형태를 갖추고 있어 n_estimators = 1000으로 설정하였다. 
+학습을 진행한 후 성능을 비교하였을때 세 가지 방안 모두 RandomForestClassifier가 가장 좋은 성능을 나타내었다. 이때문에 추가적으로 기존 모델에서 사용하던 기본 RandomForestClassifier의 성능을 더 높이기 위해 하이퍼파라미터를 최적화 하는 작업을 하였다. min_samples_leaf, min_samples_leaf는 하강곡선을 그리고 있기 때문에, default값을 사용하기로 하였다. max_depth는 상승곡선을 그리지만, 22부터는 수렴하는 정확도 성능을 보여주기때문에 max_depth = 22 로 설정하기로 하였다. n_estimators는 900부터 미세하게 진동을 하지만, 600의 값을 가질때에 가장 높은 성능을 보였기 때문에 n_estimators = 600으로 설정하였다. 
 
 ## 정확도를 향상시킬 방안
 ### 1) 학습데이터량의 확보 -> Wine Quality 1) Datasets_Increase
